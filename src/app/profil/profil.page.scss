@@ -1,0 +1,119 @@
+ion-content{
+  --background: linear-gradient(180deg, #38A899, #16432c, #000000);
+}
+
+.back{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ion-icon{
+  margin-top: 7%;
+  margin-left: 3%;
+  color: #ffffff;
+}
+
+ion-title{
+  font-family: poppins;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 7%;
+  margin-right: 13%;
+  letter-spacing: -1%;
+  font-weight: normal;
+  }
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .profile-picture {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+  }
+  
+  .edit-button {
+    background-color: #d9d9d9;
+    margin-top: 30px;
+    padding: 0%;
+    position: absolute;
+    bottom: -40px;
+    font-family: poppins;
+    font-size: 12px;
+    color: #d9d9d9;
+    border-radius: 15px;
+  }
+  
+.username {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: poppins;
+  }
+  
+  .details {
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+.container{
+  background-color: #C4DAD2;
+  padding: 16px;
+  bottom: 0;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  height: 60%;
+  width: 100%;
+  position: fixed;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 20px;
+  color: #16432c;
+  font-family: poppins;
+  letter-spacing: -3%;
+  margin-left: 10%;
+}
+
+.account-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Spasi antar card */
+}
+
+.account-card {
+  background: #ffffff; /* Warna latar belakang putih */
+  border-radius: 12px; /* Sudut membulat */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+  overflow: hidden; /* Untuk membuat sudut terpotong jika ada elemen dalamnya */
+}
+
+.account-card ion-item {
+  --background: transparent; /* Buat background item transparan */
+  color: #3c4d3f; /* Warna teks item */
+  font-size: 16px;
+  padding: 4px 8px; /* Padding dalam item */
+}
+
+.account-card ion-item:not(:last-child) {
+  border-bottom: 1px solid #e0e0e0; /* Garis bawah untuk item kecuali item terakhir */
+}
+
+ion-tab-bar {
+  border-radius: 45px 45px 0 0;
+  --background:#ffffff;
+}
+
+ion-tab-button {
+  color: rgba(225, 225, 225, 0.5);
+}

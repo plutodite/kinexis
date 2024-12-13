@@ -1,0 +1,204 @@
+ion-content{
+    --background: linear-gradient(180deg, #38A899, #16432c, #000000);
+  }
+  
+  .back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  ion-icon{
+    margin-top: 7%;
+    margin-left: 3%;
+    color: #ffffff;
+  }
+  
+  ion-title{
+    font-family: poppins;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 7%;
+    margin-right: 13%;
+    letter-spacing: -1%;
+    font-weight: normal;
+    }
+  
+  .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+    }
+    
+    .profile-picture {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3%;
+    }
+    
+    .edit-button {
+      background-color: #d9d9d9;
+      margin-top: 30px;
+      padding: 0%;
+      position: absolute;
+      bottom: -40px;
+      font-family: poppins;
+      font-size: 12px;
+      color: #d9d9d9;
+      border-radius: 15px;
+    }
+    
+  .username {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: poppins;
+    }
+    
+    .details {
+      color: #888;
+      margin-bottom: 20px;
+    }
+    
+  .container{
+    background-color: #C4DAD2;
+    padding: 16px;
+    bottom: 0;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    height: 60%;
+    width: 100%;
+    position: fixed;
+  }
+  
+  h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #16432c;
+    font-family: poppins;
+    letter-spacing: -3%;
+    margin-left: 10%;
+  }
+  
+  .account-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spasi antar card */
+  }
+  
+  .account-card {
+    background: #ffffff; /* Warna latar belakang putih */
+    border-radius: 12px; /* Sudut membulat */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+    overflow: hidden; /* Untuk membuat sudut terpotong jika ada elemen dalamnya */
+  }
+  
+  .account-card ion-item {
+    --background: transparent; /* Buat background item transparan */
+    color: #3c4d3f; /* Warna teks item */
+    font-size: 16px;
+    padding: 4px 8px; /* Padding dalam item */
+  }
+  
+  .account-card ion-item:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0; /* Garis bawah untuk item kecuali item terakhir */
+  }
+  
+  ion-tab-bar {
+    border-radius: 45px 45px 0 0;
+    --background:#ffffff;
+  }
+  
+  ion-tab-button {
+    color: rgba(225, 225, 225, 0.5);
+  }
+
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading-content {
+    background-color: #ffffff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Background overlay untuk popup */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Warna gelap transparan untuk background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Kotak popup */
+  .popup-box {
+    background: #e6edea; /* Warna latar belakang kotak */
+    padding: 20px;
+    border-radius: 12px; /* Sudut membulat */
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .popup-box h2 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: #3c4d3f; /* Warna teks judul */
+  }
+  
+  /* Container tombol */
+  .button-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  /* Tombol Batal */
+  .cancel-button {
+    background-color: #f36d6d; /* Warna merah untuk tombol Batal */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Tombol Ya */
+  .confirm-button {
+    background-color: #6A9C89; /* Warna hijau untuk tombol Ya */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

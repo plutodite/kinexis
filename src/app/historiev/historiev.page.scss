@@ -1,0 +1,177 @@
+ion-content {
+    --ion-background-color: #e9efec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    width: 304px;
+    height: 181px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: poppins;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .purple {
+    background-color: #a49ed7;
+  }
+  
+  .green {
+    background-color: #9ed7c1;
+  }
+  
+  ion-icon {
+    width: 15px;
+    height: 18px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+  
+  /* Container untuk chart donut */
+  .donut-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    margin-left: 25px;
+  }
+  
+  /* Circle chart */
+  .donut-chart {
+    width: 120px;
+    height: 120px;
+    background: conic-gradient(
+      #9ed7c1 0deg,
+      /* Bagian "cukup baik" (warna hijau muda) */ #93e4c1 180deg,
+      #a49ed7 140deg,
+      /* Bagian "perlu diperhatikan" (warna ungu) */ #c1b8ea 300deg
+    );
+    border-radius: 50%;
+    position: relative;
+    margin-right: auto;
+    margin-left: 15px;
+  }
+  
+  /* Lingkaran dalam untuk membuat efek donut */
+  .donut-chart::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  /* Teks skor di tengah */
+  .score {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: poppins;
+  }
+  
+  .date {
+    text-align: right;
+    text-decoration: underline;
+    margin-right: 10px;
+  }
+  
+  .profile {
+    text-align: left;
+  }
+  
+  img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+  }
+  
+  a {
+    color: #16423c;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: auto;
+  }
+
+  .custom-background {
+    --background: #E9ECEF; /* light gray background */
+  }
+  
+  .status {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .status-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .kanan-dot {
+    background-color: #B292FF; /* purple dot */
+  }
+  
+  .kiri-dot {
+    background-color: #98D8C2; /* green dot */
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  
+  .perhatian {
+    background-color: #FF8582; /* red background */
+    color: white;
+  }
+  
+  .baik {
+    background-color: #FFC18D; /* orange background */
+    color: white;
+  }
+  

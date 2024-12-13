@@ -1,0 +1,149 @@
+.background {
+    --background: #E9EFEC;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .header ion-avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  
+  .scan-section {
+    text-align: center;
+    margin-top: -18px;
+    padding-top: 0px;
+    padding-bottom: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+    outline: #000;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2%;
+
+  }
+
+  .scan-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-box {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    background-color: #F7F9F8;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 16px auto;
+  }
+  
+  .upload-box ion-icon {
+    color: #6c757d;
+    border-radius: 15px;
+  }
+
+  .upload-box {
+    background-color: #F7F9F8;
+    border-radius: 15px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.file-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-name {
+    background-color: #1e5b4e;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.upload-status {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.check-icon {
+    color: #4CAF50; /* Warna hijau */
+    font-size: 24px;
+}
+
+  .custom-scan-button{
+        --background: #6A9C89; /* Warna latar belakang tombol */
+        --border-radius: 20px; /* Membuat tombol berbentuk oval */
+        color: #000; /* Warna teks tombol */
+        font-weight: bold;
+        padding: 0 24px; /* Atur padding kiri dan kanan */
+        height: 24px; /* Atur tinggi tombol agar terlihat lebih oval */   
+  }
+  
+  .instru-block{
+    display: flex;
+  }
+
+  .instructions {
+    background-color: #e9efEC;
+    padding: 16px;
+  }
+  
+  .instructions h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  
+  .instructions ion-button {
+    align-items: end;
+    font-family: poppins;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 8px;
+    margin-left: 55px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    height: 24px;
+    width: 130px;
+  }
+  
+  .instructions ul {
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .instructions ul li {
+    margin-bottom: 8px;
+  }
+  
+  ion-tab-bar {
+    border-radius: 45px 45px 0 0;
+    --background:#ffffff;
+  }
+  
+  ion-tab-button {
+    color: rgba(225, 225, 225, 0.5);
+  }
+  
